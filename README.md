@@ -4,9 +4,15 @@
 
 # Manual
 
-- This scraper is specifically designed to scrape posts on [skool](https://www.skool.com/). You will need to create an account there and update the code with your credentials
-- This code doesn't include the preparation of those URLs. You can use [Bardeen.ai](https://www.bardeen.ai/) to do that for free without coding.
+- This [`skool_posts_scraper.py`](https://github.com/moon-home/scraper/blob/main/skool_posts_scraper.py) is specifically designed to scrape posts on [skool](https://www.skool.com/), so you will need to create an account there and update the code with your credentials
+- This code doesn't include the preparation of the posts URLs. You can use [Bardeen.ai](https://www.bardeen.ai/) to do that for free without coding.
 - The sample URLs in `test_urls.csv` are posts in a [public community](https://www.skool.com/community) of skool. You may need to join that group first. It's free.
+- Lastly, update the code with your
+    - posts URLs csv file
+    - in `skool_posts_scraper.py`:
+        - your csv file name
+        - the community about page URL
+        - your own email and password
 
 # High Level Steps
 
