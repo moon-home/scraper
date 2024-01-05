@@ -24,10 +24,10 @@ form = driver.find_element(By.XPATH, formXPath)
 print(form.text)
 
 emailXPath = '//*[@id="email"]/input'
-email = driver.find_element(By.XPATH, emailXPath).send_keys("moon30biology@gmail.com")
+email = driver.find_element(By.XPATH, emailXPath).send_keys("put your email here")
 
 passwordXPath = '//*[@id="password"]/input'
-password = driver.find_element(By.XPATH, passwordXPath).send_keys(".axf.ve8swKjey6")
+password = driver.find_element(By.XPATH, passwordXPath).send_keys("put your password here")
 
 submitXPath = '//*[@id="__next"]/div[2]/div[2]/div[2]/div/form/button[2]/span'
 submit = driver.find_element(By.XPATH, submitXPath).click()
